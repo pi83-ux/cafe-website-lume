@@ -44,11 +44,11 @@ body {
 #header .logo {
     font-size: 24px;
     transform: translateY(10px);
+    z-index: 20;
 }
-
 /* nav */
 .navi-menu {
-    margin-left: 117px;
+    margin-left: 95px;
     position: fixed;
     top: 5;
     left: -300px;
@@ -148,7 +148,6 @@ a {
     width: 100%;
     height: 100%;
     cursor: pointer;
-    border: 2px solid red;
 }
 
 /* main */
@@ -223,9 +222,10 @@ a {
 /* menu main */
 
 .logo-title {
-  color: #333;
+  color: #fff;
   font-size: 30px;
   padding-top: 10px;
+  z-index: 15;
 }
 
 .text {
@@ -268,7 +268,7 @@ a {
   margin: 0 auto;
   padding: 60px 0px;
   font-family: "Yu Mincho", serif;
-  color: #333;
+  color: #000;
 }
 
 .menu-title {
@@ -280,7 +280,7 @@ a {
 
 .menu-title span {
   font-size: 16px;
-  color: #333;
+  color: #000;
   margin-left: 10px;
 }
 
@@ -297,7 +297,7 @@ a {
 
 .menu-subtitle span {
   font-size: 14px;
-  color: #333;
+  color: #000;
   margin-left: 8px;
 }
 
@@ -340,8 +340,8 @@ a {
   top: 190px;
   left: 50%;
   transform: translateX(-50%);
-  color: #fff;
-  text-shadow: 2px 2px 4px rgba(30, 14, 0, 0.851);
+  color: #222;
+  /* text-shadow: 2px 2px 4px rgba(30, 14, 0, 0.851); */
 }
 
 
@@ -435,7 +435,17 @@ a {
     color: #333;
 }
 
+.navi-menu {
+    margin-left: 70px;
+}
+
 /* menu */
+#header-image {
+  height: 180px;
+  padding: 60px 10%;
+}
+
+
 .text {
     font-size: 25px;
     padding-inline: 5%;
